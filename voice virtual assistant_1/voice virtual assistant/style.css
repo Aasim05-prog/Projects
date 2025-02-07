@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: 'Arial', sans-serif;
+    background-image: url(images/bk1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    color: white;
+   
+}
+
+.image img {
+    
+    width: 300px;
+    height: auto;
+    border-radius: 500px;
+    filter: drop-shadow(0 0 20px #4b59b2);
+   
+}
+
+.icon img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 200px;
+    display: none;
+    
+   
+    
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.highlight {
+    color: #ff0080;
+}
+
+.talk {
+    width:fit-content;
+    padding: 10px 80px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #ff0080, #00aaff);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2 2 10px rgba(255, 0, 128, 0.7);
+    transition: background 0.5s ease;
+    
+}
+
+.talk:hover {
+    background: linear-gradient(90deg, #ff0080, #00aaff, #ff0080);
+    box-shadow: 2 2 20px rgba(255, 0, 128, 0.7);
+    letter-spacing: 2px;
+}
+.content{
+    padding-left: 10px;
+
+}
+
+
+#voice{
+   
+
+    /* display: none; */
+}
